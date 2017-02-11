@@ -24,7 +24,7 @@ AFRAME.registerComponent('set-image', {
       // Wait for fade to complete.
       setTimeout(function () {
         // Set image.
-        data.target.setAttribute('material', 'src', data.src);
+        data.target.setAttribute('src', 'beyonce.jpeg');
       }, data.dur);
     });
   },
